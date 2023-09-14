@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        {
+            box-sizing:border-box;
+        }
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+
+        }
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            color:white;
+        }
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background: #ccc;
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            nav,article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+    <title>Layouts</title>
+</head>
+
+<body>
+    <header>
+        <h2>Título da página</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="./06-formularios.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <article>
+
+            <h1>Título Artigo</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget lorem sed augue auctor iaculis non nec quam. Maecenas aliquam erat sapien, ac aliquet dolor blandit sit amet. Quisque vitae elementum justo. Nullam malesuada arcu eu ultricies rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam bibendum, quam in venenatis auctor, sem massa hendrerit est, eu porttitor risus ex sit amet diam. Vivamus justo mi, mattis eget volutpat non, faucibus vitae tellus. Pellentesque id molestie quam. Nulla tortor lectus, tempor quis quam eget, venenatis pellentesque mi. Cras in convallis ex, ac interdum felis. Donec tincidunt venenatis enim, vel placerat justo ornare nec. Praesent suscipit, risus non tristique ultricies, mi magna eleifend libero, sed eleifend lorem ante eget risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ultricies sed leo ornare suscipit. </p>
+
+            <p>Morbi augue nulla, interdum at tortor at, tincidunt faucibus mi. Quisque id diam arcu. Sed sollicitudin eget eros a semper. Sed lacinia sem ut neque tempus varius. Etiam ipsum magna, dapibus a justo et, porttitor condimentum lacus. Nunc accumsan sapien eu purus dictum commodo. Fusce tincidunt lorem id cursus eleifend.</p>
+
+        </article>
+
+    </section>
+    <footer>
+        <p>Desenvolvido por Ryan</p>
+    </footer>
+
+</body>
+
+</html>
