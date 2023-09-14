@@ -43,7 +43,8 @@ https://git-scm.com/
  > git pull (puxar / trazer alterações do GitHub para sua máquina)
 
 ### GitFlow
-Fluxo de trabalho no Git
+Fluxo de trabalho no Git - 
+
 
 ### Branchs
 são ramificações / versões paralelas
