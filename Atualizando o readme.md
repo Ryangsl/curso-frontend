@@ -29,7 +29,7 @@ https://git-scm.com/
  Informação de alteração
  - após testado todo seu código
  > git add *
- > git commit -m "mensagem"
+ > git commit -m "mensagem do commit"
  > git push (enviar alterações para o repositório GitHub)
  > git pull (puxar / trazer alterações do GitHub para sua máquina)
 
