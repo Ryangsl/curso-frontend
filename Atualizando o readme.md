@@ -46,7 +46,7 @@ https://git-scm.com/
 Fluxo de trabalho no Git - 
 
 
-### Branchs
+### Branchs 
 são ramificações / versões paralelas
 
 - main / master (vai para produção, quando o projeto é publicado)
